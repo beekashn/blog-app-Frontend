@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const CreatePost = () => {
   const [category, setCategory] = useState("");
-  const [tags, setTags] = useState([]); // New state variable for tags
+  const [tags, setTags] = useState([]); 
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState(null);

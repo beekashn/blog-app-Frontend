@@ -34,7 +34,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchPosts();
-  }, [search, user]); // Include user in the dependency array
+  }, [search, user]); 
 
   return (
     <>
